@@ -85,9 +85,6 @@ export default function SearchBar() {
         });
         setUserData(filtered);
     }
-    // const dropdown = document.getElementsByClassName('card-style');
-    console.log(highlightedIndex, '<<<<')
-    console.log(dropdownRef.current, '=>>>')
     return (
         <div className="search-container">
             <h4> Search bar</h4>

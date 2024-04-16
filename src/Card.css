@@ -1,0 +1,20 @@
+.card-style {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px  6px 8px rgba(118, 115, 115, 0);
+    border: 1px solid #111;
+    background: #fff;
+}
+
+.card-style:hover {
+    background-color: rgb(253, 253, 167)
+}
+.card-style > li {
+    list-style: none;
+}
+.card-style > li:first-child {
+    font-weight:bold;
+}
+.card-style > li:nth-child(2){
+    font-style: italic;
+}
